@@ -1,0 +1,23 @@
+﻿/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .user-paym-row{
+        border-radius:0;
+    }
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .payment-sec-main{
+        height:100vh;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}

@@ -1,0 +1,472 @@
+﻿.main-cart .badge {
+    position: absolute;
+    top: 6px;
+    right: 3px;
+    border-radius: 9px;
+    padding: 3px 3px;
+    min-width: 17px;
+    height: 17px;
+    line-height: 11px;
+}
+.ftco-navbar-light.scrolled .nav-link {
+    padding-top: 0.5rem !important;
+}
+button:focus{
+    box-shadow:none;
+    outline:none;
+}
+/*cart modal popup start */
+/*From Right/Left */
+.modal.drawer {
+    display: flex !important;
+    pointer-events: none;
+}
+
+    .modal.drawer * {
+        pointer-events: none;
+    }
+
+    .modal.drawer .modal-dialog {
+        margin: 0px;
+        display: flex;
+        flex: auto;
+        transform: translate(25%, 0);
+    }
+
+        .modal.drawer .modal-dialog .modal-content {
+            border: none;
+            border-radius: 0px;
+        }
+
+            .modal.drawer .modal-dialog .modal-content .modal-body {
+                overflow: auto;
+            }
+
+    .modal.drawer.show {
+        pointer-events: auto;
+    }
+
+        .modal.drawer.show * {
+            pointer-events: auto;
+        }
+
+        .modal.drawer.show .modal-dialog {
+            transform: translate(0, 0);
+        }
+
+    .modal.drawer.right-align {
+        flex-direction: row-reverse;
+    }
+
+    .modal.drawer.left-align:not(.show) .modal-dialog {
+        transform: translate(-25%, 0);
+    }
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+    .order-confirmed-modal .modal-content {
+        border-radius: 20px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .order-confirmed-modal .modal-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+.order-number {
+    color: #e48635;
+}
+
+.order-detail .order-img {
+    max-width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    .order-detail .order-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.order-detail-desc {
+    flex: 1 1 auto;
+}
+.order-detail-item-remove button span {
+    font-size: 20px;
+    line-height: 0;
+    color: #f34949;
+}
+
+.order-detail-desc p,
+.order-detail-price span,
+.order-time span,
+.order-time p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.order-time span {
+    font-weight: bold;
+}
+
+.order-detail-desc span {
+    font-size: 12px;
+}
+.order-detail-desc .minus {
+    display: inline-block;
+    background-color: #f34949;
+    padding: 7px 9px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+}
+.order-detail-desc .count {
+    max-width: 54px;
+    text-align: center;
+    border-radius: 0;
+    border-color: #f34949;
+    height: 38px !important;
+}
+.order-detail-desc .plus {
+    display: inline-block;
+    background-color: #f34949;
+    padding: 7px 9px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.order-detail-desc input::-webkit-outer-spin-button,
+.order-detail-desc input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.order-detail-desc input[type=number] {
+    -moz-appearance: textfield;
+}
+/*cart modal popup End */
+/***************************************************************/
+/********************SIGN IN SIGN UP CSS START********************/
+/***************************************************************/
+.login-reg-main {
+    background-image: url(/new-front-end/images/new-img/login-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+    .login-reg-main:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0.5;
+    }
+
+.myform {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2rem 2.5rem;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 1.1rem;
+    outline: 0;
+    /*max-width: 500px;*/
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.tx-tfm {
+    text-transform: uppercase;
+}
+
+.mybtn {
+    border-radius: 50px;
+}
+
+.login-or {
+    position: relative;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+}
+
+.hr-or {
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.google {
+    color: #666;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+
+form .error {
+    color: #ff0000;
+}
+
+#second {
+    display: none;
+}
+/***************************************************************/
+/********************SIGN IN SIGN UP CSS END********************/
+/***************************************************************/
+
+/* Menu css and popup start */
+.cs_menu .menus {
+    /*background-color: antiquewhite;
+    border-top: 2px dashed #f67f7f;
+    border-bottom: 2px dashed #f67f7f;*/
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cust-menu-img{
+    height:200px;
+}
+.cust-menu-img img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.menu-quantity input{
+    height:35px !important;
+}
+
+.custom-radios div {
+    display: inline-block;
+}
+
+.custom-radios input[type="radio"] {
+    display: none;
+}
+
+    .custom-radios input[type="radio"] + label {
+        color: #333;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+    }
+
+        .custom-radios input[type="radio"] + label span {
+            display: inline-block;
+            margin: -1px 4px 0 0;
+            vertical-align: middle;
+            cursor: pointer;
+            border: 4px solid #FFFFFF;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            line-height: 38px;
+            font-weight: bold;
+            width: 21px;
+            height: 21px;
+            border-radius: 50%;
+        }
+
+            .custom-radios input[type="radio"] + label span img {
+                opacity: 0;
+                transition: all .3s ease;
+            }
+
+    .custom-radios input[type="radio"]#color-1 + label span,
+    .custom-radios input[type="radio"]#color-2 + label span,
+    .custom-radios input[type="radio"]#color-3 + label span,
+    .custom-radios input[type="radio"]#color-4 + label span {
+        background-color: #ffffff;
+    }
+
+    .custom-radios input[type="radio"]:checked + label span {
+        background-color: #f34949 !important;
+        color:#ffffff;
+    }
+/* Menu css and popup end */
+
+/*Payment Method css start*/
+.paymethod-main{
+    margin-top:85px;
+}
+.main_card {
+    transform: scale(0.9);
+    max-width: 649px;
+    max-height: 716px;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 25px 30px -20px #000 10;
+    box-shadow: 0px 25px 30px -20px rgba(0, 0, 0, 0.0959934);
+    background: #fff;
+    margin: 0 auto;
+}
+
+    .main_card h3 {
+        /*padding-top: 115px;*/
+        /*margin-left: 90px;*/
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;
+        /* identical to box height */
+        color: #1a1b38;
+    }
+
+    .main_card .select-cards {
+        /*width: 469px;*/
+        height: auto;
+        /*margin-left: 90px;*/
+        margin-top: 30px;
+    }
+
+        .main_card .select-cards .select {
+            width: 100%;
+            height: 95px;
+            background: #fff;
+            border: 1px solid #eaeaea;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            .main_card .select-cards .select .titles {
+                margin-left: 15px;
+            }
+
+                .main_card .select-cards .select .titles h4 {
+                    font-family: Mulish;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    /* identical to box height */
+                    color: #1a1b38;
+                }
+
+                .main_card .select-cards .select .titles h5 {
+                    font-family: Mulish;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    /* identical to box height */
+                    color: #1a1b38;
+                    margin-top: 1px;
+                }
+
+            .main_card .select-cards .select .check-box {
+                width: 33px;
+                height: 33px;
+                background: #fff;
+                border: 2px solid #bcbcbc;
+                border-radius: 50%;
+                margin-left: 25px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: 0.3s;
+            }
+
+                .main_card .select-cards .select .check-box .check-dot {
+                    width: 15px;
+                    height: 15px;
+                    background: #fff;
+                    border-radius: 50%;
+                    transition: 0.3s;
+                    transform: scale(0);
+                }
+
+            .main_card .select-cards .select[data-selected="true"] {
+                border-color: #000;
+            }
+
+                .main_card .select-cards .select[data-selected="true"] .check-box {
+                    background: #000;
+                    border-color: #000;
+                    background: #f34949;
+                    border-color: #f34949;
+                }
+
+                    .main_card .select-cards .select[data-selected="true"] .check-box .check-dot {
+                        width: 15px;
+                        height: 15px;
+                        transform: scale(1);
+                    }
+/*Payment Method css end*/
+.word-break{
+    word-break:break-word;
+}
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .myform {
+        padding: 1rem !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .order-detail{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+
+@media (min-width: 576px) {
+    .order-confirmed-modal .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .main-navbar .main-cart {
+        position: absolute;
+        top: 9px;
+        right: 10px;
+    }
+    .main-navbar .navbar-toggler {
+        margin-right: 100px;    
+    }
+}

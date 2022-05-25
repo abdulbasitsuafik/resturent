@@ -1,0 +1,273 @@
+﻿/* ============ Login Section start ================= */
+.sign-in-form {
+    /*margin: 12% auto !important;*/
+}
+
+.dash-login .sign-in-form {
+    margin: 0 auto !important;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form, .payment-sec-form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.account-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-left {
+    background-color: #736cc7;
+}
+
+.login-left-inner {
+    padding: 0 70px;
+}
+
+.login-right {
+    /*padding: 30px 80px;*/
+}
+
+.round-circle {
+    border: 28px solid #ffffff;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 23px;
+    right: -60px;
+}
+
+.round-circle-1 {
+    border: 28px solid #f0f0f0;
+    width: 130px;
+    height: 130px;
+    border-radius: 34%;
+    position: absolute;
+    top: 19px;
+    right: -63px;
+    transform: rotate( 60deg );
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.border-rad-12 {
+    border-radius: 17px;
+    overflow: hidden;
+}
+.login-left-inner .account-heading:before {
+    background-color: #ffffff;
+}
+.account-heading:before {
+    content: '';
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    bottom: -11px;
+    border-radius: 3px;
+}
+
+.login-right a.brand img, .register-right a.brand img {
+    max-width: 220px;
+}
+/* ============ Login Section End ================= */
+
+/* ================== Register Section Start ===================== */
+.reg-form-set {
+    margin: 5% auto !important;
+    max-width: 1100px !important;
+}
+
+.reg-left-pay {
+    border-right: 1px solid gainsboro;
+}
+
+.reg-right .cc-img {
+    width: 280px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.reg-btn button {
+    max-width: 40%;
+}
+
+.iti.iti--allow-dropdown, .iti.iti--allow-dropdown input {
+    width: 100%
+}
+
+.payment-btn i {
+    color: #ffffff;
+    /*display: inline-block;*/
+    font-size: 28px !important;
+    margin-top: -5px !important;
+}
+
+.payment-btn-top {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transition: 0.2s ease;
+    opacity: 0;
+    transform: translateY(-80px);
+}
+
+#payment-view {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.payment-left-btn {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reg-image {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.register-left {
+    background: rgb(94,89,161);
+    background: linear-gradient(343deg, rgba(94,89,161,1) 5%, rgba(119,112,200,1) 25%, rgba(66,60,124,1) 100%);
+    /*opacity:0.5;*/
+    /*position:relative;*/
+    /*border-right: 10px solid #736cc7;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+    .register-left a.brand img {
+        max-width: 230px;
+        padding: 12px 20px;
+    }
+.reg-heading {
+    font-size: 20px;
+    font-weight: 200;
+     color: #ffffff; 
+    text-transform: inherit;
+    /* padding-top: 50px; */
+    text-align: left;
+}
+#register-form .card {
+    /*padding: 10px 60px;*/
+}
+.register-heading p{
+    max-width:630px;
+}
+
+.register-left .account-heading:before {
+    background-color: #ff8077;
+}
+.register-right form {
+    background-color: #fafbfc;
+}
+.register-left-img {
+    padding-left: 80px;
+    padding-right: 80px;
+    /*text-align: center;*/
+}
+.register-left-img img{
+    max-width:400px;
+}
+/* ================== Register Section End ===================== */
+
+/* ================== Payment Section Start ===================== */
+.payment-right {
+    background-color: #736cc7;
+}
+.user-paym-row {
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.payment-left-tabs ul li a.nav-link {
+    /*max-width:300px;*/
+}
+.payment-btn-img {
+    background-image: url(/assets/images/accnt-img/payment-methods-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    width: 92px;
+    height: 54px;
+    border-radius: 3px;
+    margin: 10px auto;
+}
+.payment-btn-paypal-pos {
+    background-position: 8% 25%;
+}
+.payment-btn-stripe-pos {
+    background-position: 64% 25%;
+}
+.payment-left-tabs ul li{
+    width:45%;
+}
+.nav-link.active .paypal-btn span i {
+    font-size: 25px;
+    color: #123984;
+}
+.nav-link .paypal-btn span i {
+    font-size: 25px;
+}
+.float-icon-1 {
+    position: absolute;
+    bottom: -60px;
+    right: -30px;
+    font-size: 190px;
+    transform: rotate( 15deg );
+    opacity: 0.1;
+}
+    .float-icon-1 i {
+        color: #ffffff;
+    }
+.float-icon-2 {
+    position: absolute;
+    top: -110px;
+    right: -20px;
+    font-size: 280px;
+    transform: rotate( -15deg );
+    opacity: 0.1;
+}
+    .float-icon-2 i {
+        color: #dcdcdc;
+    }
+.payment-left-tabs, .payment-left-top {
+    position: relative;
+    z-index: 9;
+}
+.payment-left{
+    width:600px;
+}
+
+
+
+
+/* ================== Payment Section End ===================== */
+
+
+.access-denied-img img {
+    max-width: 300px;
+}
+
+.access-denied-img p {
+    position: absolute;
+    top: -100px;
+    left: -230px;
+    font-size: 350px !important;
+    opacity: 0.1;
+    z-index: -1;
+}
